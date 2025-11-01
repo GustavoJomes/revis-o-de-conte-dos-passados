@@ -11,7 +11,7 @@ class Restaurante:
         Restaurante.restaurantes.append(self)
 
     def __str__(self):
-        return f'{self._nome} | {self._categoria}'
+        return f'{self._nome} | {self._categoria} | {self._avaliacao}'
     
     @classmethod
     def listar_restaurantes(cls):
@@ -29,3 +29,8 @@ class Restaurante:
     def receber_avaliacao(self, nome, nota):
         avaliacao = Avaliacao(nome, nota)
         self._avaliacao.append(avaliacao)
+
+    ##def media_avaliacoes(self):
+      #  if not self._avaliacao:
+      #      return 0
+      #  soma_das_notas = sum(avaliacao._nota for avaliacao in self)

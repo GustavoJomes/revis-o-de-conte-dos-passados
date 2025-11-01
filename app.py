@@ -14,6 +14,5 @@ restaurante_mexicano.receber_avaliacao('Ronaldo', 10)
 
 def main():
     Restaurante.listar_restaurantes()
-
 if __name__ == '__main__':
     main()
