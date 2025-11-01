@@ -10,9 +10,14 @@ restaurante_mexicano.receber_avaliacao('João', 5)
 restaurante_mexicano.receber_avaliacao('Pedro', 4)
 restaurante_mexicano.receber_avaliacao('Carlos', 8)
 restaurante_mexicano.receber_avaliacao('Ronaldo', 10)
-
+restaurante_praca.receber_avaliacao('Ronaldo', 5)
+restaurante_praca.receber_avaliacao('Ronaldo', 7)
+restaurante_japones.receber_avaliacao('Ronaldo', 8)
+restaurante_japones.receber_avaliacao('Ronaldo', 9)
 
 def main():
     Restaurante.listar_restaurantes()
+
+
 if __name__ == '__main__':
     main()
